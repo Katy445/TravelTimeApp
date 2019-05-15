@@ -244,7 +244,7 @@ for j=ix-1:2:ix+1
            elseif kk==iz-1 && jj==ix+1
                kk2=kk-1;
                jj2=jj+1;
-               if kk2>=1 && jj2<=nnz
+               if kk2>=1 && jj2<=nnx
                    if nsts(kk2,jj2)==0
                        swkk=0;
                    end
